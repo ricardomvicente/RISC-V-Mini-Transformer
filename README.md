@@ -15,7 +15,7 @@ A simplified Transformer-inspired attention model implemented in RISC-V Assembly
 - Overflow detection in dot product operations
 
 ### Pipeline
-Sentence -> Tokens -> Input Embedding Matrix (E) -> Q, K, V -> Scores -> Selection -> Final Vector -> Next Token Prediction
+**Sentence -> Tokens -> Input Embedding Matrix (E) -> Q, K, V -> Scores -> Selection -> Final Vector -> Next Token Prediction**
 
 ### Files in This Repository
 - `main.s` - main RISC-V Assembly implementation of the Mini-Transformer pipeline
