@@ -47,7 +47,7 @@ eats
 ```
 
 The expected output is:
-```
+```txt
 === Decision ===
 food
 ```
