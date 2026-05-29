@@ -3,16 +3,16 @@
 A simplified Transformer-inspired attention model implemented in RISC-V Assembly for the **Introduction to Computer Architecture** course at **Instituto Superior Técnico**.
 
 ### Features
-- Complete Mini-Transformer inference pipeline implemented in RISC-V Assembly
-- File-based loading of vocabulary, input tokens, embeddings, and weight matrices
-- Token-to-index conversion using a fixed vocabulary
-- Input embedding matrix construction from vocabulary embeddings
-- Matrix multiplication for Q, K, and V generation
-- Attention score calculation through dot products between Q and K vectors
-- Argmax-based selection of the most relevant token
-- Next-token prediction by comparing the final vector with vocabulary embeddings
-- Modular helper routines for file reading, matrix parsing, matrix multiplication, dot product, argmax, vector selection, and debug printing
-- Overflow detection in dot product operations
+- Mini-Transformer inference pipeline in RISC-V Assembly
+- File loading for tokens, embeddings, and weight matrices
+- Token-to-index conversion with a fixed vocabulary
+- Embedding matrix construction for input tokens
+- Q, K, and V matrix generation
+- Attention scoring with dot products
+- Argmax-based relevant token selection
+- Next-token prediction from vocabulary embeddings
+- Modular routines for parsing, matrix operations, and debugging
+- Dot product overflow detection
 
 ### Pipeline
 ```txt
