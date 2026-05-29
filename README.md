@@ -1,6 +1,6 @@
 # RISC-V Mini-Transformer
 
-A simplified Transformer-inspired attention model implemented in RISC-V Assembly for the **Introduction Computer Architecture** course at **Instituto Superior Técnico**.
+A simplified Transformer-inspired attention model implemented in RISC-V Assembly for the **Introduction to Computer Architecture** course at **Instituto Superior Técnico**.
 
 ### Features
 - Complete Mini-Transformer inference pipeline implemented in RISC-V Assembly
@@ -15,7 +15,7 @@ A simplified Transformer-inspired attention model implemented in RISC-V Assembly
 - Overflow detection in dot product operations
 
 ### Pipeline
-**Sentence -> Tokens -> Input Embedding Matrix (E) -> Q, K, V -> Scores -> Selection -> Final Vector -> Next Token Prediction**
+**Sentence -> Tokens -> Input Embedding Matrix (E) -> Q, K, V -> Scores -> Most Relevant Token Selection -> Final Vector -> Next Token Prediction**
 
 ### Files in This Repository
 - `main.s` - main RISC-V Assembly implementation of the Mini-Transformer pipeline
@@ -39,13 +39,13 @@ Make sure the following files are in the same execution directory as `main.s`:
 - `W_V.txt`
 
 Then open `main.s` in Ripes and run the program.
-
 For the default `input.txt`:
-```
+```txt
 a
 boy
 eats
 ```
+
 The expected output is:
 ```
 === Decision ===
