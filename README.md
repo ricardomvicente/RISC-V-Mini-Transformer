@@ -15,7 +15,9 @@ A simplified Transformer-inspired attention model implemented in RISC-V Assembly
 - Overflow detection in dot product operations
 
 ### Pipeline
-**Sentence -> Tokens -> Input Embedding Matrix (E) -> Q, K, V -> Scores -> Most Relevant Token Selection -> Final Vector -> Next Token Prediction**
+```txt
+Sentence -> Tokens -> Input Embedding Matrix (E) -> Q, K, V -> Scores -> Most Relevant Token Selection -> Final Vector -> Next Token Prediction
+```
 
 ### Files in This Repository
 - `main.s` - main RISC-V Assembly implementation of the Mini-Transformer pipeline
@@ -29,6 +31,7 @@ A simplified Transformer-inspired attention model implemented in RISC-V Assembly
 
 ### Run
 This project is intended to run in **Ripes** using a 32-bit RISC-V processor with the multiplication extension enabled.
+
 Make sure the following files are in the same execution directory as `main.s`:
 
 - `vocab.txt`
@@ -39,6 +42,7 @@ Make sure the following files are in the same execution directory as `main.s`:
 - `W_V.txt`
 
 Then open `main.s` in Ripes and run the program.
+
 For the default `input.txt`:
 ```txt
 a
