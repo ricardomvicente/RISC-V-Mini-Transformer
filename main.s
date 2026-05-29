@@ -468,7 +468,7 @@ back_on_loop_vocab:
     addi t1, t1, 1                        # t1 += 1 - next vocabulary token index
     addi a3, a3, 1                        # a3 += 1 - point to the start of the next token
     mv a2, t2                             # a2 = t2 - return to the start of the input token
-    
+
     j loop
 
 add_indice:
