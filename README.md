@@ -60,8 +60,8 @@ Additional provided test cases are listed in:
 - `expected_outputs_from_inputs.txt`
 
 ### Author
-*<a href="https://github.com/ricardomvicente" style="text-decoration: none !important; color: inherit !important;">Ricardo Vicente</a>
-& 
-<a href="https://github.com/franciscof2007" style="text-decoration: none !important; color: inherit !important;">Francisco Frieza</a> 
-& 
-<a style="text-decoration: none !important; color: inherit !important;">Francisco Pereira</a>*
+*<a href="https://github.com/ricardomvicente" style="text-decoration: none; color: #8b949e;">Ricardo Vicente</a>
+&
+<a href="https://github.com/franciscof2007" style="text-decoration: none; color: #8b949e;">Francisco Frieza</a> 
+&
+<a style="text-decoration: none; color: #8b949e;">Francisco Pereira</a>*
