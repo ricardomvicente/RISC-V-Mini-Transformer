@@ -60,4 +60,4 @@ Additional provided test cases are listed in:
 - `expected_outputs_from_inputs.txt`
 
 ### Author
-*Ricardo Vicente* & *Francisco Frieza* & *Francisco Pereira*
+*Ricardo Vicente* & *[Francisco Frieza](https://github.com/franciscof2007)* & *Francisco Pereira*
